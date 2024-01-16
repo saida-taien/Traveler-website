@@ -43,6 +43,10 @@ nav
     border-radius: 20px;
     margin-bottom: 20px;
 }
+nav .hidden-menu
+{
+    display: none;
+}
 nav ul
 {
     display: flex;
@@ -725,4 +729,33 @@ main
     position: relative;
     top: 255px;
     left: 340px;
+}
+footer
+{
+    margin-top: 100px;
+    width: 1440px;
+    height: 500px;
+    background: rgba(0, 0, 24, 0.514);
+    padding-top: 50px;
+}
+.footer-content
+{
+    width: 870px;
+    margin: 50px 284px;
+}
+.footer-content .company-name>img
+{
+    margin-left: 250px;
+}
+.footer-content p
+{
+    text-align: center;
+    font-size: .9rem;
+    color:rgb(1, 23, 32) ;
+    margin: 50px 50px;
+}
+.socials
+{
+    margin: 30px auto;
+    text-align: center;
 }

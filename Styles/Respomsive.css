@@ -11,15 +11,20 @@
     }
     nav
     {
-        flex-direction: column;
         gap: 20px;
+        
+    }
+    nav .hidden-menu
+    {
+        display: contents;
     }
     nav ul
     {
-        flex-direction: column;
+        /* flex-direction: column;
         gap: 10px;
         margin-right: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 10px; */
+        display: none;
     }
     .banner
     {
@@ -250,6 +255,23 @@
     {
         width: 70%;
         left: 30%;
-        top: 50%;
+        top: 55%;
+    }
+    footer
+    {
+        width: auto;
+    }
+    .footer-content
+    {
+        width: auto;
+        margin: 20px 50px;
+    }
+    .footer-content .company-name>img
+    {
+        margin-left: 0;
+    }
+    .footer-content p
+    {
+        margin: 20px 20px;
     }
 }
