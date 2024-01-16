@@ -1,0 +1,157 @@
+@media screen and (max-width : 600px) 
+{
+    body
+    {
+        width: auto;
+    }
+    header
+    {
+        width: auto;
+        margin: 50px auto;
+    }
+    nav
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+    nav ul
+    {
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .banner
+    {
+        width: auto;
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .banner-content h1
+    {
+        padding-top: 0px;
+    }
+    .banner-content p
+    {
+        margin: 0px auto;
+        padding: 5px 5px;
+    }
+    .searching
+    {
+        display: flex;
+        width: 287px;
+        flex-direction: column;
+        margin-left: 20%;
+        gap: 5px;
+        padding: 5px;
+    }
+    .searching input
+    {
+        width: 255px;
+        height: 30px;
+    }
+    .searching a
+    {
+        width: 255px;
+        height: 30px;
+    }
+    main
+    {
+        width: auto;
+        margin: 90px auto;
+    }
+    .popular-tours
+    {
+        flex-direction: column;
+    }
+    .popular-tours-content h1,
+    .popular-tours-content p,
+    .popular-tours-content button
+    {
+        margin: 10px 10px;
+    }
+    .popular-tours-image img
+    {
+        width: 100%;
+    }
+    .image1,
+    .image2,
+    .image3,
+    .image4,
+    .image5,
+    .image6,
+    .image7
+    {
+        width: 100%;
+    }
+    .image5
+    {
+        background-size: cover;
+    }
+    .image-container
+    {
+        grid-template-areas:
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6"
+        "img7"
+    }
+    .hotel-service
+    {
+        flex-direction: column;
+    }
+    .best-price
+    {
+        width: 100%;
+    }
+    .maldives,
+    .dubai,
+    .bandarban
+    {
+        width: 100%;
+    }
+    .booking-part
+    {
+        width: 100%;
+        left: 0;
+    }
+    .icon
+    {
+        padding: 10px;
+        padding-bottom: 10px;
+        gap: 5px;
+    }
+    .booking-part>h2,
+    .booking-part-dubai>h2
+    {
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+    .booking-part>p,
+    .booking-part-dubai>p
+    {
+        padding: 10px 20px;
+        padding-top: 5px;
+    }
+    .booking-part>h4,
+    .booking-part-dubai>h4
+    {
+        padding-left: 20px;
+        padding-top: 5px;
+    }
+    .booking-part>button,
+    .booking-part-dubai>button
+    {
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .booking-part-dubai
+    {
+        width: 100%;
+        left: 0px;
+    }
+}
