@@ -154,7 +154,10 @@
         width: 100%;
         left: 0px;
     }
-
+    .Packages-button button
+    {
+        left: 100px;
+    }
     .umrah
     {
         width: auto;
@@ -208,5 +211,45 @@
         width: 100%;
         top: 0;
         right: 0;
+    }
+    .special-offers>h1
+    {
+        text-align: center;
+    }
+    .special-offers>p
+    {
+        text-align: center;
+    }
+    .perfect-place
+    {
+        flex-direction: column;
+    }
+    .perfect-place-image
+    {
+        width: auto;
+    }
+    .vdo-icon>img
+    {
+        left: 80%;
+    }
+    .newsletter
+    {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .newsletter-content input
+    {
+        width: 100%;
+    }
+    
+    .newsletter-image
+    {
+        width: auto;
+    }
+    .image-content
+    {
+        width: 70%;
+        left: 30%;
+        top: 50%;
     }
 }
