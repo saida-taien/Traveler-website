@@ -3,6 +3,7 @@
     body
     {
         width: auto;
+        padding: 5px;
     }
     header
     {
@@ -91,6 +92,10 @@
         width: 100%;
     }
     .image5
+    {
+        background-size: cover;
+    }
+    .image3
     {
         background-size: cover;
     }
