@@ -154,4 +154,59 @@
         width: 100%;
         left: 0px;
     }
+
+    .umrah
+    {
+        width: auto;
+        background-size: cover;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .umrah img
+    {
+        width: 100%;
+        top: 0;
+        
+    }
+    .umrah-content,
+    .honeymoon-content
+    {
+        width: auto;
+        margin-top: 0px;
+    }
+    .umrah-content>h2,
+    .honeymoon-content>h2
+    {
+        padding-top: 0;
+    }
+    .umrah-content>p,
+    .honeymoon-content>p
+    {
+        padding-top: 0;
+    }
+    .umrah-content>ul,
+    .honeymoon-content>ul
+    {
+        padding-top: 0;
+    }
+    .umrah-content>button,
+    .honeymoon-content>button
+    {
+        margin-top: 0;
+        margin-left: 60px;
+    }
+    .honeymoon
+    {
+        width: auto;
+        background-size: cover;
+        flex-direction: column-reverse;
+        gap: 0px;
+        margin-top: 20px;
+    }
+    .honeymoon-image img
+    {
+        width: 100%;
+        top: 0;
+        right: 0;
+    }
 }

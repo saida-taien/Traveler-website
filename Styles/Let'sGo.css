@@ -479,3 +479,176 @@ main
     height: 500px;
     margin-top: 50px;
 }
+
+.Packages-button button
+{
+    margin: 20px;
+    position: relative;
+    left: 500px;
+}
+
+.special-offers 
+{
+    margin-top: 100px;
+}
+.special-offers>h1
+{
+    font-weight: bolder;
+    font-size: 2rem;
+    color:rgb(1, 23, 32) ;
+    padding: 5px;
+    text-align: start;
+    padding-top: 10px;
+}
+.special-offers>p
+{
+    font-size: .9rem;
+    color:rgb(1, 23, 32) ;
+    padding: 5px;
+    text-align: start;
+}
+.umrah
+{
+    width: 1170px;
+    height: 500px;
+    margin-top: 50px;
+    background-image: url('../Images/umrahBack.jpg');
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    border: 1px dashed rgb(1, 23, 32);
+}
+.umrah img
+{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+}
+.umrah-content,
+.honeymoon-content
+{
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 1px dashed rgb(1, 23, 32);
+    width: 500px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.80);
+}
+.umrah-content>h2,
+.honeymoon-content>h2
+{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color:rgb(1, 23, 32) ;
+    padding-top: 30px;
+    padding-left: 50px;
+    text-align: start;
+    padding-top: 10px;
+}
+.umrah-content>p,
+.honeymoon-content>p
+{
+    font-size: .9rem;
+    color:rgb(1, 23, 32) ;
+    padding-top: 10px;
+    padding-left: 50px;
+    text-align: start;
+}
+.umrah-content>ul,
+.honeymoon-content>ul
+{
+    font-size: .9rem;
+    color:rgb(1, 23, 32) ;
+    padding-top: 50px;
+    padding-left: 100px;
+    text-align: start;
+}
+.umrah-content>button,
+.honeymoon-content>button
+{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.honeymoon
+{
+    width: 1170px;
+    height: 500px;
+    margin-top: 50px;
+    background-image: url('../Images/honeymoonBack.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    border: 1px dashed rgb(1, 23, 32);
+}
+.honeymoon-image img
+{
+    width: 450px;
+    height: 300px;
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+    right: 50px;
+}
+
+.perfect-place
+{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+.perfect-place-content
+{
+    max-width: 530px;
+}
+.perfect-place-content>h1
+{
+    font-weight: bolder;
+    font-size: 2rem;
+    color:rgb(1, 23, 32) ;
+    text-align: start;
+}
+.perfect-place-content>p
+{
+    font-size: .9rem;
+    color:rgb(1, 23, 32) ;
+    padding-top: 10px;
+    text-align: start;
+}
+.perfect-place-content>ul
+{
+    font-size: .9rem;
+    color:rgb(1, 23, 32) ;
+    padding-top: 20px;
+    padding-left: 50px;
+    text-align: start;
+}
+.perfect-place-image
+{
+    width: 610px;
+    height: 425px;
+    background-image: url('../Images/Group\ 40089.png');
+}
+.perfect-place-image>img
+{
+    position: relative;
+    top: 350px;
+    left: 10px;
+    display: inline-flex;
+}
+.vdo-icon>img
+{
+    position: relative;
+    top:320px ;
+    left: 500px;
+}
+.perfect-place-image>h2
+{
+    position: relative;
+    top: 170px;
+    text-align: center;
+}
+
